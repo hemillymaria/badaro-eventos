@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .center {
+    @apply container mx-auto t:max-w-3xl   t:px-4 s:px-2  s:max-w-[390px] ;
+  }
+}
